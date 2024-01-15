@@ -15,8 +15,4 @@
     body {
         height: 100vh;
     }
-
-    .btn-primary {
-        @apply text-lg bg-black text-white p-1.5 rounded w-44 border-2 border-black hover:text-black hover:bg-white transition-colors
-    }
 }

@@ -12,13 +12,13 @@ const App = () => {
 
   return (
     <div>
-      { //Turnury for swiching b/w start game amd game component 
-        startGame ?
-          <Game />
-          :
-          <StartGame
-            handleClick={handleClick}
-          />
+      {
+      startGame ?
+        <Game />
+        :
+        <StartGame
+          handleClick={handleClick}
+        />
       }
     </div>
   )
